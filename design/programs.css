@@ -1,0 +1,119 @@
+dd a:link{color: #3f3f3f;}
+
+dd a:visited{color: #3f3f3f;}
+
+dd a:hover{color: black;}
+
+.und{text-decoration: underline;}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    min-width: 700px;
+    max-width: 1024px;
+    box-shadow: drop-shadow;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.MC img {
+    float: right;
+    padding-left: 15px;
+    width: 225px;
+    height: 130px;
+    background-repeat: none;
+    overflow: auto;
+    background-position-y: unset;
+}   
+
+iframe {
+    width: 985px;
+    padding-bottom: 25px;
+    border: 1px solid #000000;
+}
+
+main {
+    padding-top: 25px;
+    background: #ffffff;
+}
+
+p {
+    padding-bottom: 7px;
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+h3 {
+    padding-top: 18px;
+    padding-bottom:5px;
+}
+
+#list {
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.item {
+    padding-bottom: 15px;
+}
+
+#slideshow-replacement {
+    display: none;
+}
+
+/* Tablet */
+@media only screen and (max-width: 1024px) {
+
+    iframe{
+        width: 660px;
+        padding-bottom: 25px;
+        border: 1px solid #000000;
+    }
+
+    .slideshow-container {
+        display: none;
+    }
+
+    #slideshow-replacement {
+        display: block;
+    }
+
+}
+
+
+/* Phone */
+@media only all and (max-width: 768px) {
+    
+    iframe{
+        width: 450px;
+        padding-bottom: 25px;
+        border: 1px solid #000000;
+    }
+
+    .slideshow-container {
+        display: none;
+    }
+
+    #slideshow-replacement {
+        display: none;
+    }
+
+    .MC a img {
+        display: none;
+    }
+
+    #wrapper {
+        padding-top: 1em;
+        margin-top: 0%;
+        font-size: 16px;
+        padding-right: 2px;
+        padding-left: 2px;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+}

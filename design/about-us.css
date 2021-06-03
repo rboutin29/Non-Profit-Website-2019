@@ -1,0 +1,95 @@
+/* about us */
+.info{
+    padding:10em;
+    padding-top: 30px;
+    font-family:'Arial';
+    color:#3b3b3b;
+    font-size:16px;
+}
+
+h2 {
+    font-size:45px;
+    color:#3b3b3b;
+    text-align:center;
+}
+
+dl {
+    font-size:16px;
+}
+
+dt {
+    font-size:20px;
+    font-weight:bold;
+    
+}
+
+.list li{
+    list-style-position: inside;
+    list-style-type: circle;
+    padding:5px;
+}
+
+#photos{
+    padding:20px;
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:18px;
+    color:#3b3b3b;
+}
+
+figure img {
+    float:left;
+    clear:left;
+    padding:20px;
+    overflow:auto;
+}
+
+.fix {
+    overflow: auto;
+}
+
+figcaption {
+    padding: 25px;
+    display:block;  
+}
+
+h3 {
+    font-size:30px;
+    text-align: center;
+    color:#b20a2c;
+    padding: 5px;
+    font-weight: lighter;
+}
+
+.color{
+    color:#b20a2c;
+}
+
+/* Phone */
+@media only all and (max-width: 768px) {   
+
+    .info {
+        margin-top: 10px;
+        height: max-content;
+        padding-left: 2px;
+        padding-right: 2px;
+        margin-bottom: 0;
+        padding-bottom: 15px;
+    }
+
+    #photos {
+        padding: 5px;
+        margin: 5px;
+        margin-bottom: none;
+    }
+
+    .fix figure img {
+        display: none;
+    }
+
+    main h3 {
+        padding-top: 20px;
+    }
+}
+  
