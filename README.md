@@ -1,2 +1,2 @@
 # Non-Profit-Website-2019
- Website for the nonprofit organization Bridgeport Public Education Fund
+ Website built by my team and I sophomore year of college (2019) for the nonprofit organization Bridgeport Public Education Fund
